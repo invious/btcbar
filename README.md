@@ -6,7 +6,7 @@ A fork of https://raw.github.com/nearengine/btcbar
 
 ## Screenshot
 
-Here is how btcbar looks in your status bar:
+Here is how btcbar looks in your status bar (my version all the way to left, new version two icons to the right of it):
 
 ![Screenshot](https://photos-4.dropbox.com/t/2/AADlRxESldutnS_ADWKsKPqdCnyf5ot7WrCHwtFAxU4XPw/12/5800463/png/32x32/3/1465617600/0/2/Screenshot%202016-06-08%2017.06.05.png/EKuaqwQYz4cLIAIoAg/azHbq9nEWLMEdmz2fexBOOyp-LtqV2S9cvFPm1SEfAU?size_mode=3&size=2048x1536)
 
