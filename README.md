@@ -1,5 +1,5 @@
 
-btcbarmini
+bitcoinityBar
 ======
 
 inspired by https://raw.github.com/nearengine/btcbar but then rewritten from scratch in Swift
@@ -9,6 +9,11 @@ inspired by https://raw.github.com/nearengine/btcbar but then rewritten from scr
 Here is how btcbar looks in your status bar:
 
 ![Screenshot](http://i.imgur.com/GleAkDe.png)
+
+### Bitcoinity
+
+view Bitcoin graphs easily, directly from tray menu with a WebView to [Bitcoinity](https://bitcoinity.org/markets)
+
 ![Screenshot](http://i.imgur.com/S6CXGMj.png)
 
 ## Installation
