@@ -22,6 +22,7 @@
 		B65127471A71A1BB00FB6A24 /* OKCoinUSDFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B65127461A71A1BB00FB6A24 /* OKCoinUSDFetcher.m */; };
 		B662833B1A712EBB00520512 /* BitFinexUSDFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B662833A1A712EBB00520512 /* BitFinexUSDFetcher.m */; };
 		B662833E1A715EFB00520512 /* WinkDexUSDFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B662833D1A715EFB00520512 /* WinkDexUSDFetcher.m */; };
+		E457B2601D08CFDC0046255C /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = E457B25F1D08CFDC0046255C /* Settings.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		B662833A1A712EBB00520512 /* BitFinexUSDFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BitFinexUSDFetcher.m; path = Fetchers/BitFinexUSDFetcher.m; sourceTree = "<group>"; };
 		B662833C1A715EFB00520512 /* WinkDexUSDFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinkDexUSDFetcher.h; path = Fetchers/WinkDexUSDFetcher.h; sourceTree = "<group>"; };
 		B662833D1A715EFB00520512 /* WinkDexUSDFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WinkDexUSDFetcher.m; path = Fetchers/WinkDexUSDFetcher.m; sourceTree = "<group>"; };
+		E457B25F1D08CFDC0046255C /* Settings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				83C3E74E1859702000FA2921 /* MainMenu.xib */,
+				E457B25F1D08CFDC0046255C /* Settings.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E457B2601D08CFDC0046255C /* Settings.xib in Resources */,
 				83C3E7541859702D00FA2921 /* btclogo.png in Resources */,
 				830CE09B171B6C3E00DDD525 /* InfoPlist.strings in Resources */,
 				83C3E759185970C800FA2921 /* Icon.icns in Resources */,
