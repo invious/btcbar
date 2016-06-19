@@ -18,7 +18,7 @@ view Bitcoin graphs easily, directly from tray menu with a WebView to [Bitcoinit
 
 ## Installation
 
-Simply place btcbar.app in your `/Applications` folder, and optionally add it to `Login Items` in `System Preferences > Users & Groups` to display it automatically on startup.
+Compile from source or [download latest binary](http://cl.ly/1W050C121v25) and place bitconityBar.app in your `/Applications` folder, and optionally add it to `Login Items` in `System Preferences > Users & Groups` to display it automatically on startup.
 
 ## Donate
 
