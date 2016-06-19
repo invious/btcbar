@@ -22,6 +22,6 @@ Compile from source or [download latest binary](http://cl.ly/1W050C121v25) and p
 
 ## Donate
 
-If for some reason you feel like donating a few micro btc to future development, those should go here:
+Please consider a donation, since I'm currently out of a job:
 
 `1nviousFvoZFKog7wQp8Dak1YQvUjbe4b`
