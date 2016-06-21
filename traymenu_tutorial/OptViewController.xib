@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="OptViewController" customModule="bitcoinityBar" customModuleProvider="target">
+            <connections>
+                <outlet property="refreshSlider" destination="mKv-6k-DqQ" id="7wM-YD-qX4"/>
+                <outlet property="refreshTextField" destination="dWF-tl-96l" id="m34-Ib-O72"/>
+                <outlet property="view" destination="0dQ-gi-XlA" id="niP-Er-hoC"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="0dQ-gi-XlA">
+            <rect key="frame" x="0.0" y="0.0" width="162" height="42"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mKv-6k-DqQ">
+                    <rect key="frame" x="6" y="1" width="100" height="20"/>
+                    <sliderCell key="cell" alignment="left" maxValue="5" doubleValue="1" tickMarkPosition="above" allowsTickMarkValuesOnly="YES" sliderType="linear" id="fct-Ii-F5A"/>
+                    <connections>
+                        <action selector="changeRefreshRateSliderValue:" target="-2" id="5uh-qj-55r"/>
+                    </connections>
+                </slider>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GaA-0O-rml">
+                    <rect key="frame" x="16" y="13" width="81" height="9"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Refresh Rate" id="UAZ-gj-Nge">
+                        <font key="font" metaFont="system" size="7"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dWF-tl-96l">
+                    <rect key="frame" x="119" y="3" width="34" height="16"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Jmm-rg-6ct">
+                        <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="31u-bs-UbX"/>
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <action selector="changeRefreshRateTextValue:" target="-2" id="QrJ-Hg-7xG"/>
+                        <outlet property="delegate" destination="-2" id="C6J-tc-xfO"/>
+                    </connections>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TPo-Hb-eNK">
+                    <rect key="frame" x="53" y="20" width="59" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Options" id="sFP-y8-VC1">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="TPo-Hb-eNK" firstAttribute="leading" secondItem="0dQ-gi-XlA" secondAttribute="leading" constant="55" id="8r1-8N-vs3"/>
+                <constraint firstAttribute="bottom" secondItem="GaA-0O-rml" secondAttribute="bottom" constant="13" id="9vv-NQ-E3g"/>
+                <constraint firstItem="TPo-Hb-eNK" firstAttribute="centerX" secondItem="0dQ-gi-XlA" secondAttribute="centerX" id="CCP-XY-Q61"/>
+                <constraint firstAttribute="trailing" secondItem="mKv-6k-DqQ" secondAttribute="trailing" constant="61" id="Qb8-Am-hhM"/>
+                <constraint firstItem="mKv-6k-DqQ" firstAttribute="leading" secondItem="0dQ-gi-XlA" secondAttribute="leading" constant="8" id="RsL-FT-qjn"/>
+                <constraint firstAttribute="bottom" secondItem="mKv-6k-DqQ" secondAttribute="bottom" constant="3" id="SUA-sS-dNt"/>
+                <constraint firstAttribute="trailing" secondItem="dWF-tl-96l" secondAttribute="trailing" constant="12" id="U8a-im-cTG"/>
+                <constraint firstAttribute="trailing" secondItem="TPo-Hb-eNK" secondAttribute="trailing" constant="55" id="VzV-kD-u4j"/>
+                <constraint firstItem="dWF-tl-96l" firstAttribute="leading" secondItem="mKv-6k-DqQ" secondAttribute="trailing" constant="15" id="a57-Xa-iD5"/>
+                <constraint firstAttribute="trailing" secondItem="GaA-0O-rml" secondAttribute="trailing" constant="70" id="aLi-wb-3R2"/>
+                <constraint firstItem="GaA-0O-rml" firstAttribute="leading" secondItem="0dQ-gi-XlA" secondAttribute="leading" constant="18" id="dXK-69-dBP"/>
+                <constraint firstItem="GaA-0O-rml" firstAttribute="top" secondItem="0dQ-gi-XlA" secondAttribute="top" constant="20" id="fKm-Qt-90t"/>
+                <constraint firstItem="TPo-Hb-eNK" firstAttribute="top" secondItem="0dQ-gi-XlA" secondAttribute="top" constant="5" id="ksa-vb-u24"/>
+                <constraint firstItem="mKv-6k-DqQ" firstAttribute="top" secondItem="0dQ-gi-XlA" secondAttribute="top" constant="23" id="lWL-Td-NxC"/>
+                <constraint firstAttribute="bottom" secondItem="dWF-tl-96l" secondAttribute="bottom" constant="3" id="qid-Hu-wOd"/>
+                <constraint firstItem="TPo-Hb-eNK" firstAttribute="centerY" secondItem="0dQ-gi-XlA" secondAttribute="centerY" constant="-7.5" id="ubW-0p-fue"/>
+            </constraints>
+            <point key="canvasLocation" x="172" y="103"/>
+        </customView>
+    </objects>
+</document>

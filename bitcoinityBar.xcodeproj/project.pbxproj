@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E478C64D1D15EF680074024F /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E478C64C1D15EF680074024F /* EventMonitor.swift */; };
-		E48A67FB1D165049001883C9 /* OptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48A67F91D165049001883C9 /* OptViewController.swift */; };
-		E48A67FC1D165049001883C9 /* OptViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E48A67FA1D165049001883C9 /* OptViewController.xib */; };
+		E482DD391D1952B90087569F /* OptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482DD371D1952B90087569F /* OptViewController.swift */; };
+		E482DD3A1D1952B90087569F /* OptViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E482DD381D1952B90087569F /* OptViewController.xib */; };
 		E4B933981D14A8DC00FF5544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B933971D14A8DC00FF5544 /* AppDelegate.swift */; };
 		E4B9339A1D14A8DC00FF5544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B933991D14A8DC00FF5544 /* Assets.xcassets */; };
 		E4B9339D1D14A8DC00FF5544 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4B9339B1D14A8DC00FF5544 /* MainMenu.xib */; };
@@ -36,8 +36,8 @@
 
 /* Begin PBXFileReference section */
 		E478C64C1D15EF680074024F /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
-		E48A67F91D165049001883C9 /* OptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OptViewController.swift; path = "../../../traymenu_tutorial copy/traymenu_tutorial/OptViewController.swift"; sourceTree = "<group>"; };
-		E48A67FA1D165049001883C9 /* OptViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OptViewController.xib; path = "../../../traymenu_tutorial copy/traymenu_tutorial/OptViewController.xib"; sourceTree = "<group>"; };
+		E482DD371D1952B90087569F /* OptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptViewController.swift; sourceTree = "<group>"; };
+		E482DD381D1952B90087569F /* OptViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptViewController.xib; sourceTree = "<group>"; };
 		E4B933941D14A8DC00FF5544 /* bitcoinityBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitcoinityBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B933971D14A8DC00FF5544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4B933991D14A8DC00FF5544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		E4B933961D14A8DC00FF5544 /* bitcoinityBar */ = {
 			isa = PBXGroup;
 			children = (
-				E48A67F91D165049001883C9 /* OptViewController.swift */,
-				E48A67FA1D165049001883C9 /* OptViewController.xib */,
+				E482DD371D1952B90087569F /* OptViewController.swift */,
+				E482DD381D1952B90087569F /* OptViewController.xib */,
 				E4B933971D14A8DC00FF5544 /* AppDelegate.swift */,
 				E4B933C01D14BC8500FF5544 /* QuotesViewController.swift */,
 				E478C64C1D15EF680074024F /* EventMonitor.swift */,
@@ -214,7 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B933C31D14BC8500FF5544 /* QuotesViewController.xib in Resources */,
-				E48A67FC1D165049001883C9 /* OptViewController.xib in Resources */,
+				E482DD3A1D1952B90087569F /* OptViewController.xib in Resources */,
 				E4B9339A1D14A8DC00FF5544 /* Assets.xcassets in Resources */,
 				E4B9339D1D14A8DC00FF5544 /* MainMenu.xib in Resources */,
 			);
@@ -241,9 +241,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E48A67FB1D165049001883C9 /* OptViewController.swift in Sources */,
 				E4B933981D14A8DC00FF5544 /* AppDelegate.swift in Sources */,
 				E4B933C21D14BC8500FF5544 /* QuotesViewController.swift in Sources */,
+				E482DD391D1952B90087569F /* OptViewController.swift in Sources */,
 				E478C64D1D15EF680074024F /* EventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
